@@ -8,11 +8,11 @@ by hua
 import streamlit as st
 import pandas as pd
 
-st.title("月度订购情况")
+st.title("### 月度订购情况")
 df_yf= pd.read_csv("./result_yf.csv")
 st.dataframe(df_yf)
 st.divider()
-st.title("月度订购商品分布")
+st.title("### 月度订购商品分布")
 df_yf2= pd.read_csv("./result_ysp.csv")
 st.dataframe(df_yf2)
 st.divider()
